@@ -9,6 +9,8 @@ Original file is located at
 
 def make_5_fold_split_files(datasize):
 
+  import numpy as np
+
   onerange = np.arange(datasize)
   splot = len(onerange)
 
