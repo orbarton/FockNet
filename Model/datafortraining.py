@@ -14,6 +14,7 @@ def modeldata(
 
   import schnetpack as spk
   import schnetpack.transform as trn
+  import numpy as np
 
   np.random.seed(29)
 
