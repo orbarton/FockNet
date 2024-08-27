@@ -2,6 +2,7 @@ from typing import Optional, Dict, List, Type, Any
 import pytorch_lightning as pl
 import warnings
 import torch
+import schnetpack as spk
 class AtomisticTask(pl.LightningModule):
     """
     The basic learning task in SchNetPack, which ties model, loss and optimizer together.
