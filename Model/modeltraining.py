@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/11sPYon_cXIJy3YcmjcZkTAL1ePkPlZmG
 """
 
-def training(custom_data_one, modelname, version, fockmatrixtutone, task):
+def training(custom_data_one, modelname, version, fockmatrixtutone, task, custom_loss):
   import pytorch_lightning as pl
   import schnetpack as spk
   import os
