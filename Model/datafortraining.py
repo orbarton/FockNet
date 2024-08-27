@@ -9,7 +9,8 @@ Original file is located at
 
 def modeldata(
     database,
-    splittingfile
+    splittingfile,
+    data
 ):
 
   import schnetpack as spk
