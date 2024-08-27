@@ -8,6 +8,7 @@ Original file is located at
 """
 
 def custom_test_loss(pred, targets, mdimension):
+  import numpy as np
   pred = np.reshape(pred, (-1, mdimension, mdimension))
   targets = np.reshape(targets, (-1, mdimension, mdimension))
 
