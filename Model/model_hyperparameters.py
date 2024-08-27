@@ -8,7 +8,8 @@ def modelandhyperparameters(cutoff,
                             lr_factor,
                             lr_patience,
                             lr_threshold,
-                            OutFock):
+                            OutFock,
+                            AtomisticTask):
   import schnetpack as spk
   import torch
   cutoff = cutoff
