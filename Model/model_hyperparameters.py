@@ -9,7 +9,8 @@ def modelandhyperparameters(cutoff,
                             lr_patience,
                             lr_threshold,
                             OutFock,
-                            AtomisticTask):
+                            AtomisticTask,
+                            custom_loss):
   import torch.nn as nn
   import schnetpack as spk
   import torch
