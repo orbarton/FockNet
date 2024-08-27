@@ -8,6 +8,7 @@ Original file is located at
 """
 
 import os
+import numpy as np
 
 def get_event_files(director, filename):
   run_dirs = [director]
