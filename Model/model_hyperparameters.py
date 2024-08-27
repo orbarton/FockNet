@@ -8,6 +8,8 @@ def modelandhyperparameters(cutoff,
                             lr_factor,
                             lr_patience,
                             lr_threshold):
+  import schnetpack as spk
+  import torch
   cutoff = cutoff
   n_atom_basis = n_atom_basis
 
