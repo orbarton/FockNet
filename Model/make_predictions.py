@@ -13,6 +13,7 @@ def make_predictions(model, dataloader, fockmatrixtutone):
   import os
   import schnetpack as spk
   import schnetpack.transform as trn
+  import numpy as np
 
   # Set device
   device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
