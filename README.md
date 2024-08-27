@@ -15,8 +15,8 @@ The instructions also help to follow along with the tutorial notebook on Google 
 As an alternative option, here is a Jupyter Notebook with all the code shown:
 
 **First Step - Setup** :
-*!git clone https://github.com/orbarton/FockNet.git
-*!pip install -r requirements.txt
+- !git clone https://github.com/orbarton/FockNet.git
+- !pip install -r requirements.txt
 
 If installing the requirements doesn't work, which it does not on Colab due to issues with installing packages, try instead
 
