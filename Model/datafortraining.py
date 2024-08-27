@@ -10,7 +10,8 @@ Original file is located at
 def modeldata(
     database,
     splittingfile,
-    data
+    data,
+    fockmatrixtutone
 ):
 
   import schnetpack as spk
