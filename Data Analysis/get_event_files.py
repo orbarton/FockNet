@@ -10,7 +10,7 @@ Original file is located at
 import os
 import numpy as np
 
-def get_event_files(director, filename):
+def get_event_files(director, filename, parameters):
   run_dirs = [director]
   eventfiles = []
   # List the files in the run directory to identify the event file
