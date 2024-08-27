@@ -9,6 +9,7 @@ Original file is located at
 
 def training(custom_data_one, modelname, version, fockmatrixtutone):
   import pytorch_lightning as pl
+  import schnetpack as spk
   logger = pl.loggers.TensorBoardLogger(save_dir=fockmatrixtutone,name=f'{version}')
   callbacks = [
     spk.train.ModelCheckpoint(
