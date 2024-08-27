@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/11sPYon_cXIJy3YcmjcZkTAL1ePkPlZmG
 """
 
-def training(custom_data_one, modelname, version):
+def training(custom_data_one, modelname, version, fockmatrixtutone):
   import pytorch_lightning as pl
   logger = pl.loggers.TensorBoardLogger(save_dir=fockmatrixtutone,name=f'{version}')
   callbacks = [
