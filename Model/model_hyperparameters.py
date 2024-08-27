@@ -7,7 +7,8 @@ def modelandhyperparameters(cutoff,
                             initial_lr,
                             lr_factor,
                             lr_patience,
-                            lr_threshold):
+                            lr_threshold,
+                            OutFock):
   import schnetpack as spk
   import torch
   cutoff = cutoff
