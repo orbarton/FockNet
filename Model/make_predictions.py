@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1dei40yzhMAOBFDEHOsQ4GWf0qC-fnUT0
 """
 
-def make_predictions(model, dataloader):
+def make_predictions(model, dataloader, fockmatrixtutone):
   from ase import Atoms
   import torch
   import os
