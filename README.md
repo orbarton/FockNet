@@ -20,15 +20,15 @@ As an alternative option, here is a Jupyter Notebook with all the code shown:
 
 If installing the requirements doesn't work, which it does not on Colab due to issues with installing packages, try instead
 
-*!pip install h5py
-*!pip install schnetpack
-*!pip install ase
-*!pip install TensorBoard
+- !pip install h5py
+- !pip install schnetpack
+- !pip install ase
+- !pip install TensorBoard
 
 **Second Step - Splitting Files**
-*%cd /content/FockNet/Splitting Files/
-*from write_5fold_splitting_files import make_5_fold_split_files
-*%cd /content
-*make_5_fold_split_files(100)
+- %cd /content/FockNet/Splitting Files/
+- from write_5fold_splitting_files import make_5_fold_split_files
+- %cd /content
+- make_5_fold_split_files(100)
 
 
