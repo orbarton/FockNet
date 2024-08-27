@@ -8,6 +8,7 @@ Original file is located at
 """
 
 def custom_loss(pred, targets, mdimension,batch_size):
+  import torch
   pred = torch.reshape(pred, (-1, mdimension, mdimension))
   targets = torch.reshape(targets, (-1, mdimension, mdimension))
 
