@@ -10,6 +10,7 @@ def modelandhyperparameters(cutoff,
                             lr_threshold,
                             OutFock,
                             AtomisticTask):
+  import torch.nn as nn
   import schnetpack as spk
   import torch
   cutoff = cutoff
