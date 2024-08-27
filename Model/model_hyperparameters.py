@@ -10,7 +10,9 @@ def modelandhyperparameters(cutoff,
                             lr_threshold,
                             OutFock,
                             AtomisticTask,
-                            custom_loss):
+                            custom_loss,
+                            mdimension,
+                            batch_size):
   import torch.nn as nn
   import schnetpack as spk
   import torch
