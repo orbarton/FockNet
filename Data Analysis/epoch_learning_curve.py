@@ -7,12 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1CIJ9LeKYWqP8gEidHXDTSqiwcgxQ8IGu
 """
 
-first = 'firstfoldone.npz'
-second = 'secondfoldone.npz'
-third = 'thirdfoldone.npz'
-fourth = 'fourthfoldone.npz'
-fifth = 'fifthfoldone.npz'
-runs = [first, second, third, fourth, fifth]
+fockmatrixtraining = 'trvalparams.npz'
+smatrixtraining = 'strvalparams.npz'
+runs = [fockmatrixtraining, smatrixtraining]
 
 validations = []
 trains = []
@@ -23,6 +20,8 @@ for run in runs:
   trains.append(train)
 
 def test_overfitting(index, upper, title):
+  import numpy as np
+  import matplotlib.pyplot as plt
   epochs = np.arange(0,len(trains[index]))
   plt.figure(figsize=(10, 6))
   plt.plot(epochs, trains[index], label='Train')
