@@ -10,7 +10,7 @@ Another note is that generating the data is not possible without using a Unix-Ba
 
 For this case, all data is going to be provided that is necessary. On top of this, if any user of this code is curious about completing the calculations (the only part completed on the HPC cluster) then they are welcome to contact me for further information at obarton.chemistry@gmail.com
 
-The instructions also help to follow along with the tutorial notebook on Google Colab here:
+The instructions also help to follow along with the tutorial notebook on Google Colab here: https://colab.research.google.com/drive/1cROk7mmzFM_lMAhjDGbvtQ906bU_ckJt?usp=sharing
 
 As an alternative option, here is a Jupyter Notebook with all the code shown:
 
