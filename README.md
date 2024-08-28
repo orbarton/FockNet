@@ -93,5 +93,28 @@ If installing the requirements doesn't work, which it does not on Colab due to i
 - np.save('results_essone.npy', resultsess)
 - np.save('actualess.npy', actualess)
 
-**Eighth Step -**
+**Eighth Step - Analysing the Data**
+
+This step is best referred to on the Google Colab notebooks, as there are more in-depth instructions owing to the more verbose nature of a notebook.
+
+**Ninth Step - Preparing for the Calculations**
+
+- %cd /content/FockNet/CASCI Energy Calculations
+- from calculate_c_matrix import getC
+- from retrieve_s_matrix import retrieveSmatrix
+- from generate_rasorb import generate_rasorb_file
+- from rasorb import write_rasorb_files
+- %cd
+- ff1S = np.load('/content/results_essone.npy')
+- eses = [ff1S]
+- ff1Cs = getC(resultfirstone, ff1S, 10)
+- generate_rasorb_file(filenames[0], ff1Cs[0])
+- write_rasorb_file(ff1Cs, 'ff1C', 10)
+
+**Tenth Step - Complete the calculation and analysis of CASCI Energies**
+ This step requires to use the HPC cluster, so for the tutorial data I have generated the results and these can also be found in the Data for Tutorial section.
+ To see the analysis of the data, it works more efficiently to use the Google Colab tutorial.
+
+ That is the end of the workflow, feel free to email me with any questions!
+
 
